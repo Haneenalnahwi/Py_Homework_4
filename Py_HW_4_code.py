@@ -1,6 +1,6 @@
 import IP_Model as ip
 
-img = 'SierraSunset.Over.Deluxe.JPG'
+img = 'SierraSunset.Over.Deluxe.JPG'  #image from the Py_Homework_4 Repository folder
 im = ip.ImageProcessing(img)
 grey_img = im.grey()
 grey_img.show()
